@@ -96,13 +96,13 @@ section.imagem > p{
 }
 
 section#img01{
-    background-image: url(../imagens/entrada.jpg);
+    background-image: url(../imagens/pexels-francesco-ungaro-998641.jpg);
     background-position: right, center;
     background-size: cover;
 }
 
 section#img02{
-    background-image: url(../imagens/entrada.jpg);
+    background-image: url(../imagens/pexels-francesco-ungaro-998641.jpg);
     background-size: cover;
 }
 
@@ -112,3 +112,5 @@ footer {
     text-align: center;
     color: white;
 }
+
+
