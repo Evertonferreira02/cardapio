@@ -56,26 +56,36 @@ header h1{
 }
 
 form{
+    background-color: rgba(0, 0, 68, 0.333);
     display: block;
     margin: auto;
-    border: 2px solid darkred;
+    border: 1px solid darkred;
     color: antiquewhite;
     width: 50vw;
     height: 53vh;
-    background-image: url(../imagens/entrada.jpg);
+    margin-top: 50px;
+    width: 50%;
+    background-position: center center;
     background-repeat: no-repeat;
-    background-position: bottom center;
 }
 
-div input{
-    padding-top: 50px;
-    display: block;
-    margin: auto;
-    color: white;
+form h2, p{
+    padding-top: 20px;
+    text-align: center; ;
+    font-family: var(--fonte-destaque);
 }
+
 
 input{
-    display: block;
+    display: flex;
     margin: auto;
     margin-top: 20px;
+    width: 50%;
+}
+
+img{
+    width: 30vw;
+    justify-content: center;
+    display: flex;
+    margin: auto;
 }
