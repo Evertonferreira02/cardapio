@@ -8,14 +8,15 @@
 
 html, body{
     overflow-x: hidden;
-    background-color: black;
+    background-color:black;
 }
 
-header h1{
-    color: white;
-    font-family: var(--fonte-destaque);
-    text-align: center;
-    text-shadow: 1px 1px 1px darkblue;
+
+header img{
+    width: 35vw;
+    display: block;
+    margin: auto;
+    padding-bottom: 10px;
 }
 
 header h3{
@@ -24,7 +25,8 @@ header h3{
 }
 
 nav{
-    background-color: #3C3D40;
+    /* background-color: #3C3D40; */
+    background-color: darkred;
     padding: 5px;
 }
 
@@ -94,13 +96,13 @@ section.imagem > p{
 }
 
 section#img01{
-    background-image: url(imagens/entrada.jpg);
+    background-image: url(../imagens/entrada.jpg);
     background-position: right, center;
     background-size: cover;
 }
 
 section#img02{
-    background-image: url(imagens/entrada.jpg);
+    background-image: url(../imagens/entrada.jpg);
     background-size: cover;
 }
 
